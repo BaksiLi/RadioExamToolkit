@@ -1,14 +1,14 @@
 # Amateur Radio Exam Question Pool Toolkit
 
-Parse radio exam question pools of several jurisdictions and generate JSON and CSVs for Anki import or other programmatic uses.
+Parse radio exam question pools of several jurisdictions and generate JSON and CSVs for Anki import.
 
 ## 1. 中国业余无线电台操作证书考试题库
 
-根据[官方考试题库文本](http://www.crac.org.cn/News/Detail?ID=1862)，产生json和csv（见`/generated`），用于导入Anki形成牌组。
+根据[官方考试题库文本](http://www.crac.org.cn/userfiles/file/20211022/20211022155018_8471.zip)，产生json和csv（见`/generated`），用于导入Anki形成牌组。
 
 原本题库永远是第一项（即「A」）正确，本工具生成CSV时会打乱题枝顺序，但JSON依照原顺序。
 
-组好的牌组见：https://github.com/blaesus/RadioExamCNDeck/releases
+组好的牌组见：https://github.com/BaksiLi/RadioExamToolkit/releases .
 
 ## 2. FCC Amateur Radio Exam
 
@@ -34,5 +34,3 @@ Compile with `tsc` (not included in this package) and run with `node radio`.
 
 ## License
 MIT
-
-
